@@ -10,6 +10,12 @@
 </head>
 
 <body>
+    <!-- ******🍒로딩페이지🍒****** -->
+    <div id="loading">
+        <figure>
+            <img src="img/Emart24.png" alt="" />
+        </figure>
+    </div> <!-- .loading end -->
     <!-- ******🍒header🍒****** -->
     <header>
         <div class="inner">
@@ -385,6 +391,15 @@
 
     <script>
         window.onload = function(){
+
+            //🍒로딩페이지🍒
+            let loadingPage = document.getElementById('loading');
+
+            setTimeout(function(){
+                loadingPage.style.opacity = '0';
+                loadingPage.style.zIndex = '-1'; 
+                loadingPage.style.transform = 'translateX(-100%)';
+            }, 1500) 
 
             //🍒메뉴 열고 닫기🍒
             let body = document.getElementsByTagName('body')[0];
