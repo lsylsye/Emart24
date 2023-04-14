@@ -19,6 +19,16 @@
     font-style: normal;
     font-display: swap;
 }
+@font-face {
+    font-family: 'Pretendard-Black';
+    src: url('Pretendard-Black.eot');
+    src: url('Pretendard-Black.eot?#iefix') format('embedded-opentype'),
+        url('Pretendard-Black.woff2') format('woff2'),
+        url('Pretendard-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
 
 * {
     margin: 0;
@@ -224,7 +234,7 @@ header .inner nav .depth01 .depth02 li {
 
 /*******🍒cont01🍒*******/
 .cont01 {
-    margin: 50px 0;
+    margin: 70px 0 50px;
 }
 .cont01 .inner .list {
     display: flex;
